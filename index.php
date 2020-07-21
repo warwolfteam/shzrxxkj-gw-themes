@@ -3,7 +3,6 @@
       <ul class="bxslider">
         <li><img src="<?php echo get_template_directory_uri()?>/images/4.jpg" /></li>
         <li><img src="<?php echo get_template_directory_uri()?>/images/4.jpg" /></li>
-        <li><img src="<?php echo get_template_directory_uri()?>/images/banner001.jpeg" /></li>
       </ul>
     </div><!-- .slider -->
     <div class="content">
