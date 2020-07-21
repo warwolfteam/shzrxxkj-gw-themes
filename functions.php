@@ -54,7 +54,11 @@ function lingfeng_pagesize( $query ) {
             return;
         }
     */
-
+    if ( is_home() ) {
+        // Display only 1 post for the original blog archive
+        $query->set( 'posts_per_page', 10 );
+        return;
+    }
     if ( is_admin() || ! $query->is_main_query() ) {
         return;
     }
