@@ -1,8 +1,9 @@
 <?php get_header();?>
     <div class="slider">
       <ul class="bxslider">
+        <li><img src="<?php echo get_template_directory_uri()?>/images/4.jpg" /></li>
+        <li><img src="<?php echo get_template_directory_uri()?>/images/4.jpg" /></li>
         <li><img src="<?php echo get_template_directory_uri()?>/images/banner001.jpeg" /></li>
-        <li><img src="<?php echo get_template_directory_uri()?>/images/s002.jpg" /></li>
       </ul>
     </div><!-- .slider -->
     <div class="content">
@@ -49,6 +50,8 @@
         <h2>企业荣誉</h2>
         <div class="rongyu">
           <ul class="chuzhi-bxslider">
+            <li><img src="<?php echo get_template_directory_uri();?>/images/ry001.jpg" /></li>
+            <li><img src="<?php echo get_template_directory_uri();?>/images/ry001.jpg" /></li>
             <li><img src="<?php echo get_template_directory_uri();?>/images/ry001.jpg" /></li>
           </ul>
         </div><!-- .rongyu -->
