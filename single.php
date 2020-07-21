@@ -1,6 +1,6 @@
 <?php get_header();?>
 <div class="banner">
-    <img src="<?php echo get_template_directory_uri();?>/images/default-banner.jpg" alt="">
+    <img src="<?php echo get_template_directory_uri();?>/images/12.jpg" alt="images">
 </div><!-- .banner -->
 <div class="fenlei">
     <?php get_sidebar();?>

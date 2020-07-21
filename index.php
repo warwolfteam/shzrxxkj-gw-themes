@@ -1,6 +1,7 @@
 <?php get_header();?>
     <div class="slider">
       <ul class="bxslider">
+        <li><img src="<?php echo get_template_directory_uri()?>/images/1.2.jpg" /></li>
         <li><img src="<?php echo get_template_directory_uri()?>/images/4.jpg" /></li>
         <li><img src="<?php echo get_template_directory_uri()?>/images/6.jpg" /></li>
       </ul>
